@@ -21,3 +21,6 @@ rescue Errno::ENOENT
 end
 
 World(RosettaQueue::SpecHelpers)
+
+AMQP.logging = false # true
+# Thread.new {EM.run{}}

@@ -1,9 +1,11 @@
 == 0.1.x (git)
 
  === New features
-  * Beanstalk Adaper (David Brady)
-    * Still needs some work to have it take advantage of beanstalk's subscribe funtionality.
+  * Removed dependency on ActiveSupport and brought over needed String methods. (Derek and Matt - Greenview Data, Inc.)
+  * Safer shutdown in ThreadedManager (Rob Sanheim - Relevance)
+  * Beanstalk Adaper (David Brady - Lead Media Partners)
+    * Still needs some work to have it take advantage of beanstalk's subscribe functionality.
  === Bufixes
 
 == 0.1.0 / 2008-01-28 - Initial Release
-RosettaQueue was realased in the wild! RQ's initial development was primarily sponsored by Alliance Health Networks (thanks!!).  The original authors were Chris Wyckoff and Ben Mabey.The initial release included adapters for stomp and amqp, in addition to a null and fake adapters for testing.
+RosettaQueue was realased in the wild! RQ's initial development was primarily sponsored by Alliance Health Networks (thanks!!).  The original authors were Chris Wyckoff and Ben Mabey. The initial release included adapters for stomp and amqp, in addition to a null and fake adapters for testing.
